@@ -40,4 +40,4 @@ def RPS_score(file):
 	print(total_score)
 
 
-RPS_score('/mnt/c/Users/esmee/Documents/AoC_2022/PuzzleInput/Day_02.txt')
+RPS_score('../PuzzleInput/Day_02.txt')
