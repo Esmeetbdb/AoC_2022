@@ -17,6 +17,6 @@ def find_priority(file):
 				prio = 27+ alphabet_2.index(char)
 		total_priorities += prio
 	print(total_priorities)
-find_priority('/mnt/c/Users/esmee/Documents/AoC_2022/PuzzleInput/Day_03.txt')
+find_priority('../PuzzleInput/Day_03.txt')
 
 
