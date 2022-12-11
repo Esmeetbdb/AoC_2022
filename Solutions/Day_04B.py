@@ -16,4 +16,4 @@ def check_overlap(file):
 			counter += 1
 	print(counter)
 
-check_overlap('/mnt/c/Users/esmee/Documents/AoC_2022/PuzzleInput/Day_04.txt')
+check_overlap('../PuzzleInput/Day_04.txt')
