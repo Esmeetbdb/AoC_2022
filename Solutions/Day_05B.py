@@ -26,7 +26,7 @@ def stacking(file):
 				stacks[end].insert(0,item)
 				stacks[start].pop(0)
 	return stacks
-stacks = stacking('/mnt/c/Users/esmee/Documents/AoC_2022/PuzzleInput/Day_05.txt')
+stacks = stacking('../PuzzleInput/Day_05.txt')
 
 for i in range(1,10):
 	print('{}: {}'.format(i, stacks[i][0]))
