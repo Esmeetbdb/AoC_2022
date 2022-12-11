@@ -13,6 +13,6 @@ def find_start(s):
 
 
 
-for line in open('/mnt/c/Users/esmee/Documents/AoC_2022/PuzzleInput/Day_06.txt'):
+for line in open('../PuzzleInput/Day_06.txt'):
 	s = line.strip()
 	find_start(s)
