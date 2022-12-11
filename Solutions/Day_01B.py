@@ -13,4 +13,4 @@ def CalorieCounter(file):
 	calo_list.sort(reverse=True)
 	print(sum(calo_list[0:3]))
 
-CalorieCounter('/mnt/c/Users/esmee/Documents/AoC_2022/PuzzleInput/Day_01')
+CalorieCounter('../PuzzleInput/Day_01')
