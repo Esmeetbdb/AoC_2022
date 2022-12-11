@@ -11,4 +11,4 @@ def CalorieCounter(file):
 		Calories['Elf{}'.format(i)] += int(content)
 	print(max(Calories.values()))
 
-CalorieCounter('/mnt/c/Users/esmee/Documents/AoC_2022/PuzzleInput/Day_01')
+CalorieCounter('../PuzzleInput/Day_01')
